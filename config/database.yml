@@ -47,8 +47,8 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: railsPractice_production
-  username: railsPractice
-  password: <%= ENV['RAILSPRACTICE_DATABASE_PASSWORD'] %>
+# production:
+#   <<: *default
+#   database: railsPractice_production
+#   username: railsPractice
+#   password: <%= ENV['RAILSPRACTICE_DATABASE_PASSWORD'] %>
